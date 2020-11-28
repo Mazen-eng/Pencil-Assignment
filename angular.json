@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./src/styles.css"
+
+
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/medium-editor/dist/js/medium-editor.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -91,6 +97,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,9 +127,14 @@
               "devServerTarget": "Test2:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
   "defaultProject": "Test2"
+
 }

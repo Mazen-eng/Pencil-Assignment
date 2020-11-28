@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pencil-frontend-assignment": {
+      "hosting": {
+        "Test2": [
+          "pencil-frontend-assignment"
+        ]
+      }
+    }
+  }
+}

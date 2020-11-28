@@ -21,9 +21,8 @@
       "dom"
     ]
   },
-  "angularCompilerOptions": {
     "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
+    "strictInputAccessModifiers": false,
     "strictTemplates": true
-  }
+
 }
