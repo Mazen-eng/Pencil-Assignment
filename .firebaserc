@@ -1,11 +1,5 @@
 {
-  "targets": {
-    "pencil-frontend-assignment": {
-      "hosting": {
-        "Test2": [
-          "pencil-frontend-assignment"
-        ]
-      }
-    }
+  "projects": {
+    "default": "pencil-d9017"
   }
 }
